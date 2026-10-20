@@ -55,8 +55,3 @@ Source reviewed for timing, error handling and display bounds. Compilation with 
 
 ---
 
-## نبذة بالعربية
-محطة بسيطة لقياس الحرارة والرطوبة باستخدام ESP32 وحساس DHT11 وشاشة OLED. تتحدث القراءات كل ثانيتين، وتظهر رسالة واضحة عند تعذر قراءة الحساس. إذا لم تُكتشف الشاشة عند بدء التشغيل، تستمر القراءات عبر Serial Monitor.
-
-**التوصيلات:** الحساس GPIO 4، والشاشة SDA على GPIO 21 وSCL على GPIO 22. سرعة Serial Monitor هي 115200. لا يحتاج المشروع إلى إنترنت.
-
